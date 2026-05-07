@@ -12,14 +12,22 @@ API:      OpenAI Responses API
 
 ## Templates
 
+### I want to verify the API in 2 minutes
+
 - [Node.js Responses API](templates/node-responses)
 - [Python Responses API](templates/python-responses)
 - [Go Responses API](templates/go-responses)
 - [Deno Responses API](templates/deno-responses)
-- [GitHub Actions smoke test](templates/github-actions)
+
+### I want to connect a coding agent
+
 - [Codex CLI config](templates/codex-cli)
 - [Cursor setup note](templates/cursor)
 - [Aider setup note](templates/aider)
+
+### I want to test from CI
+
+- [GitHub Actions smoke test](templates/github-actions)
 
 ## Quickstart
 
@@ -30,6 +38,8 @@ export APINODE_MODEL="gpt-5.5"
 ```
 
 Pick the closest template and copy it into your project.
+
+If you are viewing this on GitHub, use **Use this template** to create a new repository with the same starter files.
 
 ## Safety
 
