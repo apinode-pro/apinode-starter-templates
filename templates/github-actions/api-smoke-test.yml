@@ -1,0 +1,35 @@
+name: API NODE smoke test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Call API NODE
+        env:
+          APINODE_API_KEY: ${{ secrets.APINODE_API_KEY }}
+          APINODE_BASE_URL: https://apinode.pro
+          APINODE_MODEL: gpt-5.5
+        run: |
+          node -e '
+          const response = await fetch(`${process.env.APINODE_BASE_URL}/responses`, {
+            method: "POST",
+            headers: {
+              Authorization: `Bearer ${process.env.APINODE_API_KEY}`,
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+              model: process.env.APINODE_MODEL,
+              input: "Say hello from GitHub Actions and API NODE."
+            })
+          });
+          if (!response.ok) throw new Error(await response.text());
+          const body = await response.json();
+          console.log(body.output_text || JSON.stringify(body).slice(0, 500));
+          '

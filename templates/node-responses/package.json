@@ -1,0 +1,8 @@
+{
+  "name": "apinode-node-responses-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs"
+  }
+}
