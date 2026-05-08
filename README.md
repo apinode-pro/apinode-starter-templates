@@ -14,6 +14,7 @@ API:      OpenAI Responses API
 
 ### I want to verify the API in 2 minutes
 
+- [Local smoke test](templates/local-smoke-test)
 - [Node.js Responses API](templates/node-responses)
 - [Python Responses API](templates/python-responses)
 - [Go Responses API](templates/go-responses)
