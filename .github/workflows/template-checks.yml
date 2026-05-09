@@ -16,6 +16,8 @@ jobs:
           node-version: "22"
       - name: Check Node starter syntax
         run: node --check templates/node-responses/index.mjs
+      - name: Check Node embeddings starter syntax
+        run: node --check templates/node-embeddings-client/index.mjs
 
   python:
     runs-on: ubuntu-latest

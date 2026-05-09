@@ -19,8 +19,10 @@ API:      OpenAI Responses API
 - [Python Responses API](templates/python-responses)
 - [Go Responses API](templates/go-responses)
 - [Deno Responses API](templates/deno-responses)
+- [curl Responses API smoke test](templates/curl-responses-smoke-test)
 - [Chat Completions smoke test](templates/chat-completions-smoke-test)
 - [Embeddings smoke test](templates/embeddings-smoke-test)
+- [Node.js embeddings client](templates/node-embeddings-client)
 - [Python embeddings client](templates/python-embeddings-client)
 
 ### I want to connect a coding agent
