@@ -24,6 +24,7 @@ API:      OpenAI Responses API
 - [Embeddings smoke test](templates/embeddings-smoke-test)
 - [Node.js embeddings client](templates/node-embeddings-client)
 - [Python embeddings client](templates/python-embeddings-client)
+- [OpenAI-compatible request debugger](templates/openai-compatible-request-debugger)
 
 ### I want to connect a coding agent
 
