@@ -32,6 +32,8 @@ API:      OpenAI Responses API
 - [Codex CLI config](templates/codex-cli)
 - [Cursor setup note](templates/cursor)
 - [Aider setup note](templates/aider)
+- [Continue.dev setup note](templates/continue)
+- [Cline / Roo Code setup note](templates/cline-roo-code)
 
 ### I want to test from CI
 
