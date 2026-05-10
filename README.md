@@ -32,10 +32,12 @@ API:      OpenAI Responses API
 ### I want to connect a coding agent
 
 - [Codex CLI config](templates/codex-cli)
+- [Codex provider block](templates/codex-provider-block)
 - [Cursor setup note](templates/cursor)
 - [Aider setup note](templates/aider)
 - [Continue.dev setup note](templates/continue)
 - [Cline / Roo Code setup note](templates/cline-roo-code)
+- [Agent base URL env pack](templates/agent-base-url-env-pack)
 
 ### I want to test from CI
 
