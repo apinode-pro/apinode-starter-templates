@@ -28,6 +28,7 @@ API:      OpenAI Responses API
 - [Python embeddings client](templates/python-embeddings-client)
 - [OpenAI-compatible request debugger](templates/openai-compatible-request-debugger)
 - [Token parameter probe](templates/token-parameter-probe)
+- [LiteLLM config](templates/litellm-config)
 
 ### I want to connect a coding agent
 
