@@ -21,6 +21,8 @@ API:      OpenAI Responses API
 - [Deno Responses API](templates/deno-responses)
 - [curl Responses API smoke test](templates/curl-responses-smoke-test)
 - [Chat Completions smoke test](templates/chat-completions-smoke-test)
+- [OpenAI JavaScript SDK Chat Completions](templates/openai-js-chat-completions)
+- [OpenAI Python SDK Chat Completions](templates/openai-python-chat-completions)
 - [Embeddings smoke test](templates/embeddings-smoke-test)
 - [Node.js embeddings client](templates/node-embeddings-client)
 - [Python embeddings client](templates/python-embeddings-client)

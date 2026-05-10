@@ -22,6 +22,8 @@ jobs:
         run: node --check templates/openai-compatible-request-debugger/index.mjs
       - name: Check token parameter probe syntax
         run: node --check templates/token-parameter-probe/index.mjs
+      - name: Check OpenAI JS Chat Completions starter syntax
+        run: node --check templates/openai-js-chat-completions/index.mjs
 
   python:
     runs-on: ubuntu-latest
@@ -32,6 +34,8 @@ jobs:
           python-version: "3.12"
       - name: Check Python starter syntax
         run: python -m py_compile templates/python-responses/main.py
+      - name: Check Python Chat Completions starter syntax
+        run: python -m py_compile templates/openai-python-chat-completions/main.py
 
   go:
     runs-on: ubuntu-latest
