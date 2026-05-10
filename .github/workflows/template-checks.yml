@@ -20,6 +20,8 @@ jobs:
         run: node --check templates/node-embeddings-client/index.mjs
       - name: Check request debugger syntax
         run: node --check templates/openai-compatible-request-debugger/index.mjs
+      - name: Check token parameter probe syntax
+        run: node --check templates/token-parameter-probe/index.mjs
 
   python:
     runs-on: ubuntu-latest

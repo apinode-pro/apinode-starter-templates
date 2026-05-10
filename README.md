@@ -25,6 +25,7 @@ API:      OpenAI Responses API
 - [Node.js embeddings client](templates/node-embeddings-client)
 - [Python embeddings client](templates/python-embeddings-client)
 - [OpenAI-compatible request debugger](templates/openai-compatible-request-debugger)
+- [Token parameter probe](templates/token-parameter-probe)
 
 ### I want to connect a coding agent
 
