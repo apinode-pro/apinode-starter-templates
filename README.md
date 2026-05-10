@@ -53,6 +53,8 @@ export APINODE_MODEL="gpt-5.5"
 
 Pick the closest template and copy it into your project.
 
+For a compact decision table, see [TEMPLATE_INDEX.md](TEMPLATE_INDEX.md).
+
 If you are viewing this on GitHub, use **Use this template** to create a new repository with the same starter files.
 
 ## Safety
