@@ -38,3 +38,4 @@ project.
 | Inspect request fields | [openai-compatible-request-debugger](templates/openai-compatible-request-debugger) |
 | Probe token parameter compatibility | [token-parameter-probe](templates/token-parameter-probe) |
 | Configure LiteLLM | [litellm-config](templates/litellm-config) |
+| LiteLLM custom auth header proxy | [litellm-custom-header-proxy](templates/litellm-custom-header-proxy) |

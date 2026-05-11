@@ -1,0 +1,10 @@
+model_list:
+  - model_name: gpt-5.5
+    litellm_params:
+      model: openai/gpt-5.5
+      api_base: https://apinode.pro/v1
+      api_key: os.environ/APINODE_API_KEY
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
+
