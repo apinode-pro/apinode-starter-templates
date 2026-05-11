@@ -36,6 +36,7 @@ project.
 | Need | Template |
 | --- | --- |
 | Inspect request fields | [openai-compatible-request-debugger](templates/openai-compatible-request-debugger) |
+| Normalize OpenAI-compatible endpoint URLs | [openai-compatible-endpoint-normalizer](templates/openai-compatible-endpoint-normalizer) |
 | Probe token parameter compatibility | [token-parameter-probe](templates/token-parameter-probe) |
 | Configure LiteLLM | [litellm-config](templates/litellm-config) |
 | LiteLLM custom auth header proxy | [litellm-custom-header-proxy](templates/litellm-custom-header-proxy) |
